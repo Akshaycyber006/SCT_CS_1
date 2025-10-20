@@ -3,19 +3,31 @@
 # py code for execution Encryption & Decryption
 
 
-## How to Use This README
+# Caesar Cipher Encryption/Decryption Tool
 
-1. Create a new file named `README.md` in your project folder
-2. Copy and paste the content above into the file
-3. Replace `[@yourusername](https://github.com/yourusername)` with your actual GitHub username
-4. (Optional) Create a `LICENSE` file with the MIT License text
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## Tips for a Good README
+A simple command-line implementation of the Caesar Cipher algorithm for text encryption and decryption.
 
-1. **Keep it updated** - Update your README whenever you make significant changes
-2. **Add screenshots** - Consider adding screenshots of your program in action
-3. **Include badges** - Badges make your README more informative and visually appealing
-4. **Use clear formatting** - Proper Markdown formatting makes your README easier to read
-5. **Be concise but thorough** - Provide enough information without overwhelming the reader
+## Features
 
-This README provides all the essential information users need to understand, install, and use your Caesar Cipher program. It follows best practices for open-source project documentation while remaining simple and straightforward.
+- Encrypt text with custom shift values
+- Decrypt encrypted messages
+- Preserve case (uppercase/lowercase letters)
+- Handle special characters and spaces
+- User-friendly interactive menu
+- Works with any integer shift value (positive or negative)
+
+## Requirements
+
+- Python 3.x (tested with Python 3.6+)
+- No external libraries required
+
+## Installation
+
+1. Download the `caesar_cipher.py` file
+2. Save it to your preferred location
+3. Run the script using Python:
+   ```bash
+   python caesar_cipher.py
